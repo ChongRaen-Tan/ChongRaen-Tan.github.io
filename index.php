@@ -22,7 +22,7 @@
         <link href="assets/css/coming-soon.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
         <link href="assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" href="assets/img/site-icon.png" type="image/png">
+        <link rel="icon" href="assets/img/fav-icon.png" type="image/png">
     </head>
         <!-- END HEAD -->
         <body>
@@ -48,7 +48,7 @@
                 </div>
                 <!--/end row-->
                 <div class="page-footer">
-                    <text> 2017 &copy; Tan Chong Raen (Ryan) </text>
+                    <text> <?php echo date('Y'); ?> &copy; Tan Chong Raen (Ryan) </text>
                 </div>
             </div>
             <!--[if lt IE 9]>
