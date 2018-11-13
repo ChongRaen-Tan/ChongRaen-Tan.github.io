@@ -48,7 +48,7 @@
                 </div>
                 <!--/end row-->
                 <div class="page-footer">
-                    <text> <?php echo date('Y'); ?> &copy; Tan Chong Raen (Ryan) </text>
+                    <text> <span class="site-year"></span>&copy; Tan Chong Raen (Ryan) </text>
                 </div>
             </div>
             <!--[if lt IE 9]>
@@ -67,6 +67,11 @@
             <script src="assets/js/jquery.backstretch.min.js" type="text/javascript"></script>
             <script src="assets/js/app.min.js" type="text/javascript"></script>
             <script src="assets/js/coming-soon.js" type="text/javascript"></script>
-            <script src="assets/js/app.min.js" type="text/javascript"></script>
+            <script>
+            $(document).ready(function () {
+                var _this_year = (new Date()).getFullYear();
+                $('.site-year').html(_this_year);
+            });
+            </script>
         </body>
     </html>
