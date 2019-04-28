@@ -1,8 +1,6 @@
 # ChongRaen-Tan.github.io
 The site for showing my portfolio / mini project by using different technologies.
 
-
-
 const site_name = ChongRaen-Tan.github.io
 
 /*======================================
@@ -12,7 +10,7 @@ const site_name = ChongRaen-Tan.github.io
 <li><b>PHP</b>, 
   <ul>
     <li>site_name/php</li>
-    <li>[CodeIgniter, Laravel, Symfony, Yii, Zend]</li>  
+    <li>[CodeIgniter, Laravel]</li>  
   </ul>
 </li>
 <li><b>JS</b>, 
@@ -21,16 +19,16 @@ const site_name = ChongRaen-Tan.github.io
     <li>[React JS, Angular JS, Vue JS, Express JS,]</li>  
   </ul>
 </li>
-<li><b>Java/Kotlin</b>, 
+<li><b>Mobile Development</b>, 
   <ul>
-    <li>site_name/javap</li>
-    <li>[Android, Kotlin]</li>  
+    <li>site_name/mbd</li>
+    <li>[React Native, Kotlin]</li>  
   </ul>
 </li>
 <li><b>E-Commerce</b>, 
   <ul>
     <li>site_name/ecomp</li>
-    <li>[OpenCart, WooCommerce, Magento, PrestaShop]</li>  
+    <li>[OpenCart, Magento, PrestaShop]</li>  
   </ul>
 </li><li><b>Resouces/References</b>, 
   <ul>
