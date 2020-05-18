@@ -1,28 +1,8 @@
 {
-  "channel" : {
-    { 
-      "title" : "DaAi",
-      "url" : "https://www.youtube.com/user/DaAiVideo/featured"
-    },
-    { 
-      "title" : "LifeTv",
-      "url" : "https://www.youtube.com/user/lifetv01/featured"
-    },
-    { 
-      "title" : "LifeTv2",
-      "url" : "https://www.youtube.com/channel/UCsS3quz-rJXI8Fidh18iKCg/featured"
-    },
-    { 
-      "title" : "GoodTv",
-      "url" : "https://www.youtube.com/user/goodtv/featured"
-    },
-    { 
-      "title" : "Amtb",
-      "url" : "https://www.youtube.com/user/tang3211/featured"
-    },
-    { 
-      "title" : "BaoEn",
-      "url" : "https://www.youtube.com/channel/UCJZyCP9RSE8bLJ1n4lqa1DQ/featured"
-    }
-  }
+	"DaAi" : "https://www.youtube.com/user/DaAiVideo/featured",
+	"LifeTv" : "https://www.youtube.com/user/lifetv01/featured",
+	"LifeTv2" : "https://www.youtube.com/channel/UCsS3quz-rJXI8Fidh18iKCg/featured",
+	"GoodTv" : "https://www.youtube.com/user/goodtv/featured",
+	"Amtb" : "https://www.youtube.com/user/tang3211/featured",
+	"BaoEn" : "https://www.youtube.com/channel/UCJZyCP9RSE8bLJ1n4lqa1DQ/featured"
 }
