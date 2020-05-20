@@ -85,8 +85,10 @@
 
 		$("button").bind("click", function(e){
 			let ytb_tag = $(this).data('val');
-			$('#ytbWrap').show();
-			$('#ytbWrap').attr('src', ytbList[ytb_tag]);
+			// $('#ytbWrap').show();
+			// $('#ytbWrap').attr('src', ytbList[ytb_tag]);
+
+			window.location.href = ytbList[ytb_tag];
 		});
 
 		jQuery(document).ready(function($) {
