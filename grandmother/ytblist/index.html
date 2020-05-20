@@ -1,4 +1,58 @@
 <!DOCTYPE html>
-<head><title>test</title></head>
-<body>Testing</body>
+<html>
+	<head>
+		<base href="../../">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Grandmother always my VVIP!</title>
+		
+		<link rel="stylesheet" href="assets/css/bulma.min.css">
+		
+		<script src="assets/js/jquery.min.js"></script>
+
+      <link rel="icon" href="assets/img/fav-icon.png" type="image/png">
+	</head>
+	<body>
+		<section class="section">
+			<div class="columns">
+				<div class="column">
+					<button class="button is-fullwidth is-success is-large">慈济大爱台 一号</button>
+				</div>
+				<div class="column">
+					<button class="button is-fullwidth is-success is-large">慈济大爱台 二号</button>
+				</div>
+				<div class="column">
+					<button class="button is-fullwidth is-success is-large">生命电视台</button>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column">
+					<button class="button is-fullwidth is-success is-large">报恩讲堂</button>
+				</div>
+				<div class="column">
+					<button class="button is-fullwidth is-success is-large">新闻</button>
+				</div>
+				<div class="column">
+					<button class="button is-fullwidth is-success is-large">福建戏</button>
+				</div>
+			</div>
+			<div class="columns">
+				<h1 id="test"></h1>
+				<iframe src="" frameborder="0" ></iframe>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+		'use strict';
+		document.onkeypress = function (e){
+			e = e || window.event;
+			console.log(e);
+			document.getElementById("test").innerHTML = e.key; 
+		}
+
+		jQuery(document).ready(function($) {
+			
+		});
+	</script>
 </html>
